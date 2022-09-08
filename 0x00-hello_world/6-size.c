@@ -2,7 +2,7 @@
 /**
  * main - Prints sized of characters
  *
- * Return: Always o (success)
+ * Return: Always 0 (success)
  */
 int main (void)
 {
