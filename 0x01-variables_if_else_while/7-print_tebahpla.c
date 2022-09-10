@@ -1,18 +1,17 @@
-#include <stdio.h>
 #include <unistd.h>
+#include <stdio.h>
 /**
  * main - Entry point
- * Description: prints allsingle digit numbers of 
- * base 10 from 0
+ * Description: prints lowercase alphabets in reverse
  * Return: Always 0 (success)
  */
 int main(void)
 {
 	int a;
 
-	for (a = 0; a < 10; a++)
+	for (a = 'z'; a >= 'a'; a--)
 	{
-		printf("%d", a);
+		putchar(a);
 	}
 	putchar('\n');
 	return (0);
