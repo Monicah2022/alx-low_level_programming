@@ -2,16 +2,19 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Return: Always 0 (Success/correct)
+ * Description: prints allsingle digit numbers of
+ * base 10 from 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	int i;
-	
-	for (i = 0; i < 10; i++)
+	int a;
+
+
+	for (a = 0; a < 10; a++)
 	{
-		printf("%i", i);
+		printf("%d", a);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
