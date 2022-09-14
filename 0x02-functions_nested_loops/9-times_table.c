@@ -2,7 +2,7 @@
 
 /**
  * time_tables - prints the 9 times tables
- * Description: prints the 9 times tables
+ * Description: prints the 9 times table, starting with 0
  * Return: void
  */
 
