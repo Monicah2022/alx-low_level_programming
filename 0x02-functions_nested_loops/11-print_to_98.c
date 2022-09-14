@@ -7,7 +7,7 @@
  *
  * Description: prints all natural number from n - 98
  *
- * Return: void 
+ * Return: void
  */
 void print_to_98(int n)
 {
