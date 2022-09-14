@@ -11,13 +11,13 @@ void jack_bauer(void)
 
 	hours_max = 58;
 	hours_tens = '0';
-	while (hours_tens < '3'3)
+	while (hours_tens < '3')
 	{
 		if (hours_tens == '2')
 		{
 			hours_max = '4';
 		}
-		hours_ones = '0'
+		hours_ones = '0';
 		while (hours_ones < hours_max)
 		{
 			minutes_tens = '0';
