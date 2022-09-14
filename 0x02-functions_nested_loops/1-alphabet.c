@@ -1,20 +1,18 @@
-#include "stdio.h"
+#include "main.h"
+
 /**
- * main - Entry point
- * Description: Prints '_putchar\n'
- * Return: Always 0 (success)
+ * print_alphabet - Entry point
+ * Description: a function that prints alphabet
+ * Return: void
  */
-int main(void)
+void print_alphabet(void)
 {
-char str[] = "_putcahr\n";
-int i = 0;
+	char letter = 'a';
 
-while (str[i] != '\0')
-        {
-	char c = str[i];
-
-	_putchar(c);
-	i++;
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
 	}
-return (0);
+	_putchar('\n');
 }
