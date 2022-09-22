@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * leet -> a leet function
+ * leet - a leet function
  * @x: param x
  * Return: a string
  */
