@@ -3,26 +3,22 @@
 
 /**
  * leet - a leet function
- * @x: param x
- * Return: a string
+ * @s: string to encode
+ * Return: address of s
  */
-char *leet(char *str)
+char *leet(char *s)
 {
-	int a = 0, b, l = 5;
-	char tr[5] = {'A', 'E', 'O', 'T', 'L'};
-	char trw[5] = {'4', '3', '0', '7', '1'};
+	int i, j;
+	char a[] = "aAeEoOtTlL";
+	char b[] = "4433007711";
 
-	while (x[a])
+	for (i = 0; *(s + i); i++)
 	{
-		b = 0;
-
-		while (b < 1)
+		for (j = 0; j <= 9; j++)
 		{
-			if (x[a] == tr[b] || x[a] - 32 == tr[b])
-				x[a] = trw[b];
-			b++;
+			if (a[j] == *(s + i))
+				*(s + i) = b[j];
 		}
-		a++;
 	}
-	return (x);
+	return (s);
 }
