@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strchr - Locates a character in a string
- * @s: input string 
+ * @s: input string
  * @c: character to search
  * Return: Always 0 (Success)
  */
