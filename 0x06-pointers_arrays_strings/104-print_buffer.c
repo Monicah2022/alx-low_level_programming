@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_buffer - Prints a buffer 10 bytes at a time, starting with
+ * print_buffer - Prints a buffer 10 bytes at a time
  * @b: The buffer to be printed.
  * @size: The number of bytes to be printed from the buffer.
  */
