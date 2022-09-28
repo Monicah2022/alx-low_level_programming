@@ -21,7 +21,7 @@ int _sqrt_recursion(int n)
  * @i: iterator
  *
  */
-int _sqrt(int n, int i)
+int actual_sqrt_recursion(int n, int i)
 {
 	if (i * i > n)
 		return (-1);
