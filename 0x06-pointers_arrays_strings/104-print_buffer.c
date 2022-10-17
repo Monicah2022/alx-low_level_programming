@@ -7,7 +7,7 @@
  * @size: The number of bytes to be printed from the buffer.
  */
 
-void print_buffer(char *b, int size)
+void print_buffer(char *b, int size);
 {
 	int byte, index;
 
