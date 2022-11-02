@@ -240,7 +240,7 @@ void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 		printf("%#x\n", (unsigned int)e_entry);
 
 	else
-i		printf("%#lx\n", e_entry);
+		printf("%#lx\n", e_entry);
 }
 
 /**
